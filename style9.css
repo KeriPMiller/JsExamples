@@ -1,0 +1,54 @@
+#clock {
+	font-size: 100px;
+	color: white;
+	width: 700px;
+	position: fixed;
+	margin: 200px 200px;
+	font-family: 'Poiret One', monospace;
+}
+
+#nav {
+	display: inline;
+	background-color: #fb9a4b;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav a {
+	color: #edef7d;
+	font-size: 4em;
+	font-family: 'Monoton', monospace;
+	text-decoration: none;
+}
+
+#login-form {
+	margin-top: 200px;
+	color: #a4cc8c;
+	font-size: 2em;
+	font-family: monospace;
+	display: none;
+}
+
+#logged-in {
+	background-image: url(images/cheezburger.gif);
+	background-position: cover;
+}
+
+form {
+	height: 100px;
+}
+
+p {
+	font-family: "Londrina Outline", cursive;
+	font-size: 2.5em;
+	color: #eb939a;
+	display: none;
+}
